@@ -18,5 +18,6 @@ All data during the operation of the application is stored in a **Postgres** dat
 Interaction with the database takes place using the **Spring Boot Data JPA** framework.
 There is also a **validation** of the length of the entered **book title** and **author**, the ***user's name** and his **year of birth**, which must be at least 1931.
 # Launch
-To launch the application, download the archive, go to the Library folder and run the **docker-compose up** command from the terminal.
-To turn it off, run **docker-compose down**
+To launch the application, download the archive, go to the Library folder and run the **docker-compose up -d** command from the terminal.
+To turn it off, run **docker-compose stop**
+To delete containers run **docker-compose down**
